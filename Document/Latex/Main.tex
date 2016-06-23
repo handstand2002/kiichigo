@@ -1,0 +1,56 @@
+\documentclass[11pt]{report}
+\usepackage{outline}
+\usepackage{pmgraph}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\title{\textbf{Title}}
+\author{Author 1\\and Author 2,\\et al.}
+\date{\oldstylenums{00}/\oldstylenums{00}/\oldstylenums{00}}
+%--------------------Make usable space all of page
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\headsep}{-.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+%--------------------Indention
+\setlength{\parindent}{1cm}
+
+\begin{document}
+	
+	\title{\textbf{Kiichigo} \\ A Point-of-Sale system for the Raspberry Pi}
+	
+	\author{Grant Wade}
+	\date{\today}
+%--------------------Title Page
+\maketitle
+ 
+\newpage
+
+\tableofcontents
+
+\newpage
+\input{includes/Latex/01_FuncRequirements.tex}
+
+\newpage
+\input{includes/Latex/02_NonFuncRequirements.tex}
+
+\newpage
+\input{includes/Latex/03_UseCases.tex}
+
+\newpage
+\input{includes/Latex/04_StateDiagrams.tex}
+
+\newpage
+\input{includes/Latex/05_Database.tex}
+
+\newpage
+\input{includes/Latex/06_ClassDiagrams.tex}
+
+\newpage
+\input{includes/Latex/07_SequenceDiagrams.tex}
+
+\newpage
+\input{includes/Latex/08_TestCases}
+
+\end{document}
