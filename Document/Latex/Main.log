@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUN 2016 23:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUN 2016 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,43 +184,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Chapter 1.
 [2
 
-]) [3] (./includes/Latex/02_NonFuncRequirements.tex
+] [3]) [4] (./includes/Latex/02_NonFuncRequirements.tex
 Chapter 2.
-) [4
+) [5
 
 ] (./includes/Latex/03_UseCases.tex
 Chapter 3.
-) [5
+) [6
 
 ] (./includes/Latex/04_StateDiagrams.tex
 Chapter 4.
-) [6
+) [7
 
 ] (./includes/Latex/05_Database.tex
 Chapter 5.
-) [7
+) [8
 
 ] (./includes/Latex/06_ClassDiagrams.tex
 Chapter 6.
-) [8
+) [9
 
 ] (./includes/Latex/07_SequenceDiagrams.tex
 Chapter 7.
-) [9
+) [10
 
 ] (./includes/Latex/08_TestCases.tex
 Chapter 8.
-) [10
+) [11
 
 ] (./Main.aux) ) 
 Here is how much of TeX's memory you used:
  1987 strings out of 493089
  27323 string characters out of 6134842
- 94184 words of memory out of 5000000
+ 95185 words of memory out of 5000000
  5442 multiletter control sequences out of 15000+600000
  10129 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,23p,245b,182s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,23p,330b,188s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
@@ -228,10 +228,10 @@ m/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 17.pfb>
-Output written on Main.pdf (11 pages, 84257 bytes).
+Output written on Main.pdf (12 pages, 86384 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
