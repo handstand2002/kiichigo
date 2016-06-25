@@ -6,6 +6,9 @@
 \begin{enumerate}
 	\item Track Inventory, including serial numbers
 	\item Create Transactions
+		\subitem On Transaction: Customer, Taxable, Discount, Custom Fields
+		\subitem Per Item: SKU, Description, Ext. Description, Qty, Price, Taxable, Total Price
+	\item Create Item Entries
 	\item Lookup Transactions
 	\item Lookup Customer History
 	\item Save Transactions (Hold and Layaway)
@@ -18,6 +21,8 @@
 	\item Transfer Inventory Out
 	\item z report
 	\item x report
+	\item Input opening amounts (if static not defined by admin)
+	\item Input closing amounts
 	\item Generate Specific reports (Saved by manager)
 	\item cash drop
 	\item cash add (put money in register...)
@@ -32,11 +37,15 @@
 	\item Create Users
 	\item Restrict User Privileges
 		\subitem z/x reports
+			\subsubitem Information Shown on x/z reports
+			\subsubitem Show over/short amounts
 		\subitem cash drop/add
 		\subitem Receive Inventory
 		\subitem Transfer Inv. Out
 		\subitem lookup customer history
-		\subitem 
+		\subitem Item Creation
+		\subitem Allow refunds/voids
+		\subitem define which transaction fields user can modify
 	\item Delete Users
 	\item Generate Reports (custom too)
 		\subitem Recommended items to order
@@ -50,7 +59,10 @@
 	\item e-mail alerts to admin about problems
 		\subitem Terminal stops responding
 		\subitem Suspicious Tx Void
-	\item Setup for Terminals is simple (plug it in and it asks if it's the first or not, etc)
+	\item Customer Information Fields name rename
+	\item Item Information Fields name rename
+	\item Define Custom Fields for Transaction
+	\item Set standard amount for till's to have on open
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -64,10 +76,3 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Hardware}
-\begin{enumerate}
-	\item Compatible with wireless
-	\item Compatible with various printers
-	\item Compatible with barcode scanners
-	\item Compatible with Touchscreen (maybe...)
-	\item Compatible with employee card scanner
-\end{enumerate}
