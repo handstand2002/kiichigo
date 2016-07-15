@@ -4,6 +4,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Client-User}
 \begin{enumerate}
+	\item command input at bottom of screen, for all typed commands (including user change, sku input, etc)
+		\subitem USER:$<$USERID$>$ (USERID replaced with `*')
+		\subitem $<$ITEMSKU$>$
+	\item some commands (like user change) replace following characters with * (e.g. USER:***********). This should be done on the fly, so characters don't show up at all.
 	\item Track Inventory, including serial numbers
 	\item Create Transactions
 		\subitem On Transaction: Customer, Taxable, Discount, Custom Fields
@@ -49,6 +53,7 @@
 	\item Delete Users
 	\item Generate Reports (custom too)
 		\subitem Recommended items to order
+	
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,16 +63,25 @@
 	\item Remove Terminal from Cluster
 	\item e-mail alerts to admin about problems
 		\subitem Terminal stops responding
-		\subitem Suspicious Tx Void
+		\subitem Suspicious Tx Void/refunds
+		\subitem Over x number of deletions/changes to DB.
+	\item Customer information fields add/delete
 	\item Customer Information Fields name rename
 	\item Item Information Fields name rename
 	\item Define Custom Fields for Transaction
 	\item Set standard amount for till's to have on open
+	\item View Database deletions until end of day
+	\item If over x number of deletions/changes to DB, don't delete the changes at end of day.
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Server Database}
 \begin{enumerate}
+	\item Option to implement pseudo deletions and pseudo changes
+	\item Pseudo Changes: Any changes to database make a "deleted" version of the row, and THEN change it, so you can see the changes later (until end of day).
+	\item Pseudo Deletions: Any deletions to database aren't actually deleted until end of day. 
+	\item Changes to fields
+	\item Daily backups of the database are archived for x days back (daily backup done before daily deletions).
 	\item SQL Changes are done local, then broadcast
 	\item When client is idle, then synchronize received changes
 	\item big changes need to roll between clients so the load is spread (1-$>$2; 1-$>$3, 2-$>$4; 1-$>$5, 2-$>$6, 3-$>$7, 4-$>$8, 5-$>$9)

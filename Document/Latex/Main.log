@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUN 2016 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUN 2016 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,6 +182,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] (./includes/Latex/01_FuncRequirements.tex
 Chapter 1.
+
+Overfull \hbox (10.18001pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/10.95 some com-mands (like user change) re-place fol-low-ing cha
+r-ac-ters with * (e.g. USER:***********).
+ []
+
 [2
 
 ] [3]) [4] (./includes/Latex/02_NonFuncRequirements.tex
@@ -228,7 +234,7 @@ m/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 17.pfb>
-Output written on Main.pdf (12 pages, 87742 bytes).
+Output written on Main.pdf (12 pages, 89458 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
